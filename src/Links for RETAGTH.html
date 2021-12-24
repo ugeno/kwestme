@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Password
+        </title>
+        <style>
+            body {
+                background-color: lightblue;
+                padding: 30px;
+            }
+        </style>
+        <script>
+            function checkPassword() {
+                var password = documents.getElementById("passwordBox");
+                var passwordText = password.value;
+                if(passwordText == "Random Events") {
+                    return true;
+            }
+            alert ("Access Denied! Incorrect Password!");
+            return false;
+        }
+      </script>
+    </head>
+    <body> 
+        <p style="font-size: 30-t;">RETAGTH</p>
+        <p> Please enter the password to view this website.</p>
+        <p>Password:<input id="passwordBox" type="password"/></p>
+        <a href="file:///C:/Users/neguo/OneDrive%20-%20Frensham%20Heights%20School/Documents/CodingProjects/RETAGTH.html" onclick="return
+            checkPassword
+        ();">
+        Click Here To Submit Password And View website.
+        </a>
+    </body>
+        </html>
